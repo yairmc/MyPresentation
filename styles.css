@@ -102,3 +102,12 @@ h2 {
 p {
     color: white;
 }
+
+@media (max-width: 400px) {
+    body{
+        flex-direction: column;
+    }
+    .cardsContent {
+        flex-direction: column;
+    }
+}
